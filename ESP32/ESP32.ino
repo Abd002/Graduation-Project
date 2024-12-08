@@ -100,7 +100,7 @@ int readFile() {
 
 //WIFI section
 const char* ssid = "Abd0002";
-const char* password = "Mz01142505042";
+const char* password = "";
 void  connectToWIFI() {
   Serial.println();
   Serial.print("[WiFi] Connecting to ");
@@ -207,9 +207,9 @@ void getCodeVersion() {
 }
 
 
-#define API_KEY "AIzaSyDWch5MIkTUiXZGu-_xVKQMOGZYn5Ml5hg"
+#define API_KEY ""
 #define USER_EMAIL "abdelrahman.5alifa@gmail.com"
-#define USER_PASSWORD "Mz01142505042"
+#define USER_PASSWORD ""
 #define STORAGE_BUCKET_ID "learning-fota.appspot.com"
 
 FirebaseData fbdo;
